@@ -3,7 +3,7 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8" />
-    <title>Create New Product</title>
+    <title>Create New Hotel</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" />
     <script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
 </head>
@@ -17,7 +17,7 @@
       
  		<div alight="left">
             <tr>
-                <label class="form-label" >Student Name</label>
+                <label class="form-label" >Hotel Name</label>
                 <td>
 	                <input type="hidden" th:field="*{id}" />
 	                <input type="text" th:field="*{hotelname}" class="form-control" placeholder="Hotel Name" />
@@ -28,13 +28,13 @@
           	<div alight="left">
           
             <tr>
-                 <label class="form-label" >Course</label>
+                 <label class="form-label" >Location</label>
                 <td><input type="text" th:field="*{location}" class="form-control" placeholder="Location" /></td>
             </tr>
             </div> 
             <div alight="left">
                  <tr>
-                 <label class="form-label" >Fee</label>
+                 <label class="form-label" >charge</label>
                 <td><input type="text" th:field="*{charge}" class="form-control" placeholder="Fee" /></td>
             </tr>
             </div> 
